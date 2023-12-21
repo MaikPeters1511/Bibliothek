@@ -1,10 +1,4 @@
-﻿using Bibliothek.API.DataTypes;
-using Bibliothek.API.Models.Ausweis;
-using Bibliothek.API.Models.Author;
-using Bibliothek.API.Models.Buch;
-using Microsoft.EntityFrameworkCore;
-
-namespace Bibliothek.API.Data;
+﻿namespace Bibliothek.API.Data;
 
 public class ApplicationDbContext : DbContext
 {

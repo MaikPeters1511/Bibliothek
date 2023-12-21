@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Bibliothek.API.DataTypes;
-using Bibliothek.API.Models.Ausweis;
+﻿using Bibliothek.API.Models.Ausweis;
 
 namespace Bibliothek.API.Models.Buch;
 

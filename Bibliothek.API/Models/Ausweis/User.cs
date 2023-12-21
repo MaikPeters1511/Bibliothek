@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Bibliothek.API.Models.Ausweis;
+﻿namespace Bibliothek.API.Models.Ausweis;
 
 public class User
 {
@@ -48,7 +45,6 @@ public class User
     public string Telefonnummer { get; set; }
 
     [DataType(DataType.Date)]
-    [NotMapped]
     public DateOnly Aufenthaltsgenehmigung { get; set; }
 
     [MaxLength(100)]

@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Bibliothek.API.Models.Buch;
+﻿namespace Bibliothek.API.Models.Buch;
 
 public class Herausgeber
 {
